@@ -1,0 +1,22 @@
+# Grid07 AI Intern Assignment — dependencies
+# Install with: pip install -r requirements.txt
+
+# Core LLM / agent framework
+langchain>=0.2.0
+langchain-core>=0.2.0
+langgraph>=0.1.0
+
+# LLM provider drivers — uncomment the one you use
+langchain-ollama>=0.1.0          # local Llama-3 via Ollama
+# langchain-openai>=0.1.0        # OpenAI / GPT
+# langchain-groq>=0.1.0          # Groq (fast Llama-3 / Mixtral)
+
+# Embeddings
+sentence-transformers>=2.7.0
+
+# Vector store
+faiss-cpu>=1.8.0                 # swap for faiss-gpu if you have CUDA
+
+# Utilities
+numpy>=1.26.0
+python-dotenv>=1.0.0
